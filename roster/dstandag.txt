@@ -1,0 +1,10 @@
+firstname:      Daniel
+lastname:       Standage
+preferredname:  Daniel
+email:          dstandag@indiana.edu
+iuusername:     dstandag
+iplantusername: standage
+classrole:      instructor
+major:          Bioinformatics and Computational Biology
+academicrank:   Ph.D. student
+

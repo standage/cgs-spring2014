@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import random
+import sys
+with sys.stdin as f:
+  pairs = f.read().splitlines()
+print random.choice(pairs)
