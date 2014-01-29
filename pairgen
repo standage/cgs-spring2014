@@ -59,8 +59,8 @@ instream.close()
 random.shuffle(students)
 while(len(students) > 0):
   s1 = students.pop()
-  s2 = students.pop()
-  if s2:
+  if len(students) > 0:
+    s2 = students.pop()
     print >> outstream, "[%s, %s]" % (s1, s2)
   else:
     print >> outstream, "[%s]" % (s1)
